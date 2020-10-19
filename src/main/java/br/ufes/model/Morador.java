@@ -140,5 +140,28 @@ public class Morador {
     public String toString() {
         return "Morador{" + "nome=" + nome + ", apelido=" + apelido + ", telefone=" + telefone + ", telefonesContatos=" + telefonesContatos + '}';
     }
-    
+
+    public void setTotalReclamacoesMensal(int totalReclamacoesMensal) {
+        this.totalReclamacoesMensal = totalReclamacoesMensal;
+    }
+
+    public void setTotalReclamacoesResolvidasMensal(int totalReclamacoesResolvidasMensal) {
+        this.totalReclamacoesResolvidasMensal = totalReclamacoesResolvidasMensal;
+    }
+
+    public void setTotalTarefasMensal(int totalTarefasMensal) {
+        this.totalTarefasMensal = totalTarefasMensal;
+    }
+
+    public void setTotalTarefasConcluidasMensal(int totalTarefasConcluidasMensal) {
+        this.totalTarefasConcluidasMensal = totalTarefasConcluidasMensal;
+    }
+
+    public void setDiaVencimentoPagamentoContasMensal(int diaVencimentoPagamentoContasMensal) {
+        this.diaVencimentoPagamentoContasMensal = diaVencimentoPagamentoContasMensal;
+    }
+
+    public void setDiaPagamentoContasMensal(int diaPagamentoContasMensal) {
+        this.diaPagamentoContasMensal = diaPagamentoContasMensal;
+    }
 }
